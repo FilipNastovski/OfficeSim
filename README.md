@@ -43,12 +43,13 @@ and use your judgment.
 ![Desk View](screenshots/desk.png)
 ![Monitor UI](screenshots/monitor.png)
 ![Book UI](screenshots/book.png)
+![Fax View](screenshots/fax.png)
 
 ---
 
 ## Gameplay Video
 
-[![Gameplay Video](screenshots/thumbnail.png)](YOUR_YOUTUBE_LINK_HERE)
+[![Gameplay Video]]()
 
 ---
 
