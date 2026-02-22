@@ -55,9 +55,9 @@ and use your judgment.
 
 ## Download
 
-[Download Windows EXE](releases/OfficeSafetySimulator.exe)
+[Download Windows EXE](https://github.com/FilipNastovski/OfficeSim/releases/download/V3.1/OfficeSafetySimulator-V3.1.zip)
 
-Or play in the browser: [Web Version](YOUR_ITCH_IO_LINK_HERE)
+Or play in the browser: [Web Version]()
 
 ---
 
