@@ -49,15 +49,13 @@ and use your judgment.
 
 ## Gameplay Video
 
-[![Gameplay Video]]()
+[![Gameplay Video]](https://youtu.be/nasng52qghU)
 
 ---
 
 ## Download
 
 [Download Windows EXE](https://github.com/FilipNastovski/OfficeSim/releases/download/V3.1/OfficeSafetySimulator.exe)
-
-Or play in the browser: [Web Version]()
 
 ---
 
