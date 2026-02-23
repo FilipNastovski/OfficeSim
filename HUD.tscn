@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://cig55e588t274"]
+
+[ext_resource type="Script" uid="uid://ckd123tsxldss" path="res://hud.gd" id="1_k5de2"]
+
+[node name="Hud" type="CanvasLayer" unique_id=2139890233]
+script = ExtResource("1_k5de2")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=424348318]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 105.0
+grow_horizontal = 2
+mouse_filter = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer" unique_id=1671296709]
+layout_mode = 2
+
+[node name="CorrectLabel" type="Label" parent="HBoxContainer/VBoxContainer" unique_id=1799973643]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "Correct guesses: "
+
+[node name="WrongLabel" type="Label" parent="HBoxContainer/VBoxContainer" unique_id=1120355180]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "Wrong guesses: "
+
+[node name="TimerLabel" type="Label" parent="." unique_id=798821934]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -1.0
+offset_bottom = 23.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 64
+text = "05:00"
+horizontal_alignment = 1

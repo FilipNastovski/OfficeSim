@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://fufj0n32c2im"]
+
+[ext_resource type="Script" uid="uid://bq2di6watg1k4" path="res://end_screen.gd" id="1_ekb8w"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ekb8w"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 0.101960786, 0.101960786, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[node name="EndScreen" type="CanvasLayer" unique_id=396892959]
+script = ExtResource("1_ekb8w")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=588856874]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.05457373, 0.05457379, 0.054573752, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect" unique_id=2020411097]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -31.0
+offset_right = 20.0
+offset_bottom = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="ResultLabel" type="Label" parent="ColorRect/VBoxContainer" unique_id=101227487]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TipLabel" type="Label" parent="ColorRect/VBoxContainer" unique_id=103759685]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ColorRect/VBoxContainer" unique_id=993538760]
+layout_mode = 2
+alignment = 1
+
+[node name="QuitButton" type="Button" parent="ColorRect/VBoxContainer/HBoxContainer" unique_id=1159250988]
+layout_mode = 2
+mouse_filter = 1
+theme_override_styles/normal = SubResource("StyleBoxFlat_ekb8w")
+text = "Quit Game"
+
+[node name="ResetButton" type="Button" parent="ColorRect/VBoxContainer/HBoxContainer" unique_id=1350717716]
+layout_mode = 2
+mouse_filter = 1
+theme_override_styles/normal = SubResource("StyleBoxFlat_ekb8w")
+text = "Restart Game"

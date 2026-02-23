@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dklyaioxnrd05"]
+
+[ext_resource type="Script" uid="uid://c7s3k6ppr8j64" path="res://game_manager.gd" id="1_p13vs"]
+
+[node name="GameManager" type="Node3D" unique_id=774586617]
+script = ExtResource("1_p13vs")
+
+[node name="EmailTimer" type="Timer" parent="." unique_id=1832341258]
+wait_time = 35.0
+autostart = true
+
+[node name="FaxTimer" type="Timer" parent="." unique_id=39113419]
+wait_time = 10.0
+autostart = true
+
+[node name="PhoneTimer" type="Timer" parent="." unique_id=389555615]
+wait_time = 5.0
+autostart = true
+
+[node name="GameTimer" type="Timer" parent="." unique_id=2145069837]
+autostart = true

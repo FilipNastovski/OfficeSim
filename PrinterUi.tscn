@@ -1,0 +1,91 @@
+[gd_scene format=3 uid="uid://b56fu380geipm"]
+
+[ext_resource type="Script" uid="uid://qcgaf8qcqh2n" path="res://printer_ui.gd" id="1_fnjfl"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uxbfg"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.08627451, 0.8, 0.05882353, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fnjfl"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.8238142, 0.069575265, 0, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[node name="PrinterUi" type="CanvasLayer" unique_id=110681829]
+script = ExtResource("1_fnjfl")
+
+[node name="Control" type="Control" parent="." unique_id=116140936]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -450.0
+offset_right = 250.0
+offset_bottom = 450.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="Control" unique_id=1192266741]
+layout_mode = 0
+offset_right = 500.0
+offset_bottom = 900.0
+color = Color(1, 1, 0.9647059, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control/ColorRect" unique_id=1306090885]
+layout_mode = 0
+offset_right = 500.0
+offset_bottom = 900.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/normal_font_size = 24
+text = "This is a test
+"
+fit_content = true
+scroll_active = false
+text_direction = 1
+
+[node name="AcceptButton" type="Button" parent="Control/ColorRect" unique_id=764280006]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 50.0
+offset_top = -60.0
+offset_right = 200.0
+offset_bottom = -20.0
+grow_vertical = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_uxbfg")
+text = "Accept"
+
+[node name="RejectButton" type="Button" parent="Control/ColorRect" unique_id=385194519]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -60.0
+offset_right = -50.0
+offset_bottom = -20.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_fnjfl")
+text = "Reject"
