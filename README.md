@@ -1,7 +1,7 @@
 # OfficeSafetySimulator
 
-A first-person office game where you play as a security-conscious employee 
-who must identify phishing emails, suspicious faxes, and social engineering 
+A first-person office game where you play as a security-conscious employee
+who must identify phishing emails, suspicious faxes, and social engineering
 attempts before time runs out.
 
 ---
@@ -13,8 +13,8 @@ You sit at your desk and must monitor three sources of incoming information:
 - **Printer** — receives faxes from offices that must be verified or rejected
 - **Phone** — rings occasionally and updates your list of trusted contacts
 
-Use the **Book** on your left to check trusted email addresses and approved 
-offices. Not every message from an unknown source is fake — read carefully 
+Use the **Book** on your left to check trusted email addresses and approved
+offices. Not every message from an unknown source is fake — read carefully
 and use your judgment.
 
 ---
@@ -49,7 +49,7 @@ and use your judgment.
 
 ## Gameplay Video
 
-[![Gameplay Video]](https://youtu.be/nasng52qghU)
+[▶ Watch Gameplay Video](https://youtu.be/nasng52qghU)
 
 ---
 
@@ -60,5 +60,69 @@ and use your judgment.
 ---
 
 ## Built With
+
+- Godot 4
+
+---
+---
+
+# OfficeSafetySimulator — Македонски
+
+Игра од прво лице сместена во канцеларија, каде играте улога на безбедносно свесен вработен кој мора да идентификува фишинг е-пошта, сомнителни факсови и обиди за социјален инженеринг пред да истече времето.
+
+---
+
+## За играта
+
+Седите за вашата маса и мора да следите три извори на информации:
+- **Монитор** — прима е-пошта која мора да се прифати или означи како сомнителна
+- **Печатач** — прима факсови од канцеларии кои мора да се верификуваат или одбијат
+- **Телефон** — ѕвони повремено и ја ажурира вашата листа на доверливи контакти
+
+Користете ја **Книгата** на вашата лева страна за да ги проверите доверливите е-маил адреси и одобрените канцеларии. Не секоја порака од непознат извор е лажна — читајте внимателно и пресудувајте сами.
+
+---
+
+## Како се игра
+
+| Акција | Контрола |
+|---|---|
+| Гледање наоколу | Глушец |
+| Интеракција / Отвори UI | Лев клик |
+| Затвори UI | Escape или Десен клик |
+| Излез од играта | Q |
+
+1. Внимавајте на светечките обриси на мониторот, печатачот и телефонот — тие значат дека нешто чека на ваше внимание
+2. Кликнете на предметот за да го отворите
+3. Внимателно прочитајте ја пораката и проверете го испраќачот во вашата книга
+4. Притиснете **Прифати** или **Одбиј**
+5. Ако треба да ја проверите книгата среде порака, притиснете **Escape** или **Десен клик** за да го затворите UI — пораката ќе ве чека кога ќе се вратите
+6. Одговорете на телефонот кога ѕвони за да ги ажурирате доверливите извори
+7. Имате 3 минути — донесете што е можно повеќе точни одлуки
+
+---
+
+## Слики од играта
+
+![Поглед на масата](screenshots/desk.png)
+![Монитор UI](screenshots/monitor.png)
+![Книга UI](screenshots/book.png)
+![Поглед на факс](screenshots/fax.png)
+
+---
+
+## Видео од играта
+
+[▶ Погледај видео од играта](https://youtu.be/nasng52qghU)
+
+---
+
+## Преземање
+
+[Преземи Windows EXE](https://github.com/FilipNastovski/OfficeSim/releases/download/V3.1/OfficeSafetySimulator.exe)
+
+---
+
+## Изработено со
 
 - Godot 4
