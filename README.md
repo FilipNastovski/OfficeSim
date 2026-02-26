@@ -121,6 +121,7 @@ https://github.com/user-attachments/assets/366a2fd2-873e-4985-a8cc-28c1b5f9a228
 [▶ Погледај видео од играта](https://youtu.be/nasng52qghU)
 
 https://github.com/user-attachments/assets/366a2fd2-873e-4985-a8cc-28c1b5f9a228
+
 ---
 
 ## Преземање
