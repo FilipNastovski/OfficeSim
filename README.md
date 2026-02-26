@@ -51,11 +51,16 @@ and use your judgment.
 
 [▶ Watch Gameplay Video](https://youtu.be/nasng52qghU)
 
+
+https://github.com/user-attachments/assets/366a2fd2-873e-4985-a8cc-28c1b5f9a228
+
 ---
 
 ## Download
 
-[Download Windows EXE](https://github.com/FilipNastovski/OfficeSim/releases/download/V3.1/OfficeSafetySimulator.exe)
+* [Download Windows EXE_Latest_GameVersion](https://github.com/FilipNastovski/OfficeSim/releases/download/V4.0/OfficeSafetySimulator.exe)
+
+* [Download Windows EXE_Old_GameVersion](https://github.com/FilipNastovski/OfficeSim/releases/download/V3.1/OfficeSafetySimulator.exe)
 
 ---
 
@@ -115,11 +120,14 @@ and use your judgment.
 
 [▶ Погледај видео од играта](https://youtu.be/nasng52qghU)
 
+https://github.com/user-attachments/assets/366a2fd2-873e-4985-a8cc-28c1b5f9a228
 ---
 
 ## Преземање
 
-[Преземи Windows EXE](https://github.com/FilipNastovski/OfficeSim/releases/download/V3.1/OfficeSafetySimulator.exe)
+* [Преземи Windows EXE_НоваВерзија](https://github.com/FilipNastovski/OfficeSim/releases/download/V4.0/OfficeSafetySimulator.exe)
+
+* [Преземи Windows EXE_СтараВерзија](https://github.com/FilipNastovski/OfficeSim/releases/download/V3.1/OfficeSafetySimulator.exe)
 
 ---
 
